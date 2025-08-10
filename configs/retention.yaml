@@ -1,0 +1,2 @@
+alpr_retention_days: 7
+purge_interval_minutes: 60

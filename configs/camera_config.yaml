@@ -1,0 +1,20 @@
+fps: 30
+pixel_size_m: null         # leave null; use homography
+speed_units: "kmh"
+
+# Reference points for homography (pixel->world)
+homography:
+  image_points:   # pixel coordinates in the image
+    - [640, 360]
+    - [960, 360]
+    - [640, 540]
+    - [960, 540]
+  world_points_m: # corresponding ground-plane points in meters
+    - [0.0, 0.0]
+    - [5.0, 0.0]
+    - [0.0, 5.0]
+    - [5.0, 5.0]
+
+roi_mask_path: "data/roi_masks/road_mask.png"
+
+speed_limit_kmh: 50

@@ -1,0 +1,21 @@
+detector:
+  yolo_weights: "models/detectors/yolov8n.pt"
+  classes_keep: [2, 3, 5, 7]   # car=2, motorcycle=3, bus=5, truck=7 (COCO ids)
+  conf_thres: 0.25
+  iou_thres: 0.45
+
+tracker:
+  impl: "bytetrack"
+  max_age: 30
+  min_hits: 3
+  iou_threshold: 0.3
+
+type_classifier:
+  backend: "torch_hub"
+  weights: "models/classifiers/vehicle_type.pth"
+  labels: ["sedan","hatchback","suv","van","pickup","truck","bus","motorcycle"]
+
+make_model:
+  enabled: true
+  weights: "models/classifiers/vmmr.pth"
+  min_confidence: 0.80
