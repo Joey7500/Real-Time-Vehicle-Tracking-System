@@ -49,18 +49,18 @@ bash scripts/run_local_demo.sh
 # In another terminal, start the dashboard:
 streamlit run src/app/dashboard.py
 
-##🛣️ Roadmap
+## 🛣️ Roadmap
 #Replace SimpleTracker with ByteTrack / DeepSORT
 
 #Train vehicle type model; add make/model (confidence-gated)
 
 #WebSocket live events; richer dashboard; Pi5 acceleration
 
-##⚖️ Privacy & Legal
+## ⚖️ Privacy & Legal
 
 #IF ALPR is enabled, keep plate text for max 7 days (configurable) and avoid long-term storage.
 
-##📌 Status
+## 📌 Status
 #Core pipeline, API, DB, and dashboard scaffolding are in place.
 
 #Classification and ALPR are currently placeholders.
