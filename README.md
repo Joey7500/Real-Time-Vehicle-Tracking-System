@@ -34,19 +34,19 @@ models/     → weights (ignored in git)
 
 
 ## 🖥️ Quick Demo
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-# Initialize database
+Initialize database
 python scripts/init_db.py
 
-# Start FastAPI service
+Start FastAPI service
 uvicorn src.app.service:app --host 0.0.0.0 --port 8080
 
-# Run local demo (expects data/demo/sample_clip.mp4)
+Run local demo (expects data/demo/sample_clip.mp4)
 bash scripts/run_local_demo.sh
 
-# In another terminal, start the dashboard:
+In another terminal, start the dashboard:
 streamlit run src/app/dashboard.py
 
 ## 🛣️ Roadmap
@@ -58,13 +58,13 @@ Train vehicle type model; add make/model (confidence-gated)
 
 ## ⚖️ Privacy & Legal
 
-#IF ALPR is enabled, keep plate text for max 7 days (configurable) and avoid long-term storage.
+IF ALPR is enabled, keep plate text for max 7 days (configurable) and avoid long-term storage.
 
 ## 📌 Status
-#Core pipeline, API, DB, and dashboard scaffolding are in place.
+Core pipeline, API, DB, and dashboard scaffolding are in place.
 
-#Classification and ALPR are currently placeholders.
+Classification and ALPR are currently placeholders.
 
-#Marked “In Progress” on resume; active development planned.
+Marked “In Progress” on resume; active development planned.
 
 
