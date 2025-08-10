@@ -10,10 +10,10 @@ Events are stored for dashboards and time-series statistics.
 
 | Street View | Camera | Raspberry Pi 5 |
 |-------------|--------|----------------|
-| ![Street view ] ![IMG_20250809_112403](https://github.com/user-attachments/assets/ff37e52f-da89-478d-9bde-f90f9941ab87)
-| ![Camera placeholder]![IMG_20250809_112343](https://github.com/user-attachments/assets/6d08bdfe-5148-44cd-b52b-36ef425a8678)
+|[Street view ][IMG_20250809_112403](https://github.com/user-attachments/assets/ff37e52f-da89-478d-9bde-f90f9941ab87)
+|[Camera placeholder][IMG_20250809_112343](https://github.com/user-attachments/assets/6d08bdfe-5148-44cd-b52b-36ef425a8678)
 
- | ![Pi5 setup] ![IMG_20250809_111204](https://github.com/user-attachments/assets/8e94b32e-5664-4937-a104-27733ba844d5)
+ |[Pi5 setup][IMG_20250809_111204](https://github.com/user-attachments/assets/8e94b32e-5664-4937-a104-27733ba844d5)
 |
 
 ---
