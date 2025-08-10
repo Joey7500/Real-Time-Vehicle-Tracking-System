@@ -50,9 +50,9 @@ bash scripts/run_local_demo.sh
 streamlit run src/app/dashboard.py
 
 ## 🛣️ Roadmap
-#Replace SimpleTracker with ByteTrack / DeepSORT
+Replace SimpleTracker with ByteTrack / DeepSORT
 
-#Train vehicle type model; add make/model (confidence-gated)
+Train vehicle type model; add make/model (confidence-gated)
 
 #WebSocket live events; richer dashboard; Pi5 acceleration
 
