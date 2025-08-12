@@ -14,7 +14,7 @@ Events are stored for dashboards and time-series statistics.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **YOLO detection + tracker stub** (upgrade path: ByteTrack / DeepSORT)
 - **Homography-based speed estimation** in km/h
@@ -25,7 +25,7 @@ Events are stored for dashboards and time-series statistics.
 
 ---
 
-## 📂 Repository Layout
+## Repository Layout
 src/        → capture, detect_track, speed, classify, alpr, storage, utils, app
 configs/    → camera_config.yaml, models.yaml, retention.yaml
 scripts/    → run_local_demo.sh, run_pi5.sh, init_db.py
@@ -33,7 +33,7 @@ data/       → calibration images, ROI mask, demo clip
 models/     → weights (ignored in git)
 
 
-## 🖥️ Quick Demo
+## Quick Demo
 Install dependencies
 pip install -r requirements.txt
 
@@ -49,18 +49,18 @@ bash scripts/run_local_demo.sh
 In another terminal, start the dashboard:
 streamlit run src/app/dashboard.py
 
-## 🛣️ Roadmap
+## Roadmap
 Replace SimpleTracker with ByteTrack / DeepSORT
 
 Train vehicle type model; add make/model (confidence-gated)
 
 #WebSocket live events; richer dashboard; Pi5 acceleration
 
-## ⚖️ Privacy & Legal
+## Privacy & Legal
 
 IF ALPR is enabled, keep plate text for max 7 days (configurable) and avoid long-term storage.
 
-## 📌 Status
+## Status
 Core pipeline, API, DB, and dashboard scaffolding are in place.
 
 Classification and ALPR are currently placeholders.
