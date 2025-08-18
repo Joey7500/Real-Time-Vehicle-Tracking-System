@@ -40,9 +40,6 @@ pip install -r requirements.txt
 Initialize database
 python scripts/init_db.py
 
-Start FastAPI service
-uvicorn src.app.service:app --host 0.0.0.0 --port 8080
-
 Run local demo (expects data/demo/sample_clip.mp4)
 bash scripts/run_local_demo.sh
 
